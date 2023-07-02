@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.contaner{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* margin-top: 15px; */
+    /* margin-left: 80px; */
+    background-color: black;
+    color: white;
+    height: 80px;
+    flex-direction: row;
+}
+
+.Logo{
+    margin-left: 100px;
+    /* height: 50px; */
+    /* width: 500px; */
+}
+
+img {
+    width: 92px;
+    height: 32px;
+  }
+
+  .line {
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+  }
+
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 150px;
+}
+
+nav ul li{
+    list-style: none;
+    /* word-spacing: 50px; */
+    margin-right: 70px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+nav ul li:hover{
+    font-size: 80;
+    text-decoration: underline;
+    font-weight: 1100;
+    cursor: pointer;
+}
+
+.button_1{
+    margin-left: 350px;
+    background-color: rgb(151,10,161);
+    height: 40px;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+ }
+
+ .button_1:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: solid black;
+ }
+
+ .hero{
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 200px;
+ }
+
+ .heading-text{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: white;
+ }
+
+ .par{
+    font-style: normal;
+    font-weight: 100;
+    margin-top: 15px;
+    color: white;
+    font-size: 37px;
+ }
+
+ .button_2{
+    /* font-family: "Red Rose"; */
+    background-color: rgb(151,10,161);;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 30px;
+    color: #ffffff;
+    border: none;
+    padding: 25px 56px;
+    cursor: pointer;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+ }
+
+ .button_2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: solid black;
+ }
